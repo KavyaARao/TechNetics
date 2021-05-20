@@ -1,0 +1,145 @@
+#r,#n,#e,#p,#cp{
+  text-align: right;
+  font-weight: bold;
+  color: red;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+body {
+  font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
+  background: #e9e9e9;
+}
+a,
+[type="submit"] {transition: all .25s ease-in;}
+.signup__container {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /*border-radius: (3px/16px)*1rem;
+  box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);*/
+}
+img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.signup__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background:linear-gradient(57deg, #4760e9 , #11cdde );
+}
+.container__child {
+  width: 50%;
+  height: 100%;
+  color: #fff;
+}
+.signup__thumbnail {
+  position: relative;
+  padding: 2rem;
+  padding-right: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: url(http://ultraimg.com/images/spectre-login.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.thumbnail__logo,
+.thumbnail__content {
+  position: absolute;
+  z-index: 2;  
+}
+.thumbnail__logo {align-self: flex-start;}
+.logo__shape {fill: #fff;}
+.logo__text {
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+.thumbnail__content {align-self: center;}
+h1,
+h2 {
+  font-weight: 300;
+  color: rgba(255,255,255,1);
+}
+.heading--primary {font-size: 1.999rem;}
+.heading--secondary {font-size: 1.414rem;text-align: justify;}
+.signup__form {
+  padding-top: 200px;
+  padding-left: 194px;
+  padding-right: 80px;
+  background: #fafafa;
+  vertical-align: middle;
+}
+label {
+  font-size: .85rem;
+  text-transform: uppercase;
+  color: black;
+}
+input {
+  font-size: 1em;
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+}
+input[type=text],[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+li{
+  text-align: center;
+}
+
+.form-control {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  &:focus {border-color: #111;}
+}
+[type="text"] {color: #111;}
+[type="password"] {color: #111;}
+.btn--form {
+  padding: .5rem 2.5rem;
+  font-size: .95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: 35px;
+}
+.btn:hover {background: linear-gradient(57deg, #4760e9 , #11cdde );}
+.btn:focus {background: linear-gradient(57deg, #4760e9 , #11cdde );}
+
+.signup__link {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #a9a9a9 ;}
+  
